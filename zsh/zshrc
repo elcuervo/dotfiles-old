@@ -69,6 +69,7 @@ chruby ruby-2.0
 # Plugins
 source ~/.zsh/aliases.sh
 source ~/.zsh/tmux.sh
+source ~/.zsh/tools.sh
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
