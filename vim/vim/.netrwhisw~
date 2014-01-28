@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/baguirre/code/cubox/dodecahedron/video-platform/db/migrate'
+let g:netrw_dirhist_2='/Users/baguirre/code/cubox/dodecahedron/video-platform/public/css/admin'
+let g:netrw_dirhist_3='/Users/baguirre/code/cubox/dodecahedron/video-platform/app/routes/users'

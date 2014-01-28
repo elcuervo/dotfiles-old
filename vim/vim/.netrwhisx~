@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/baguirre/code/cubox/datajam/datajam/app/controllers/admin'
+let g:netrw_dirhist_2='/Users/baguirre/code/cubox/dodecahedron/video-platform/app/views/user'
+let g:netrw_dirhist_3='/Users/baguirre/code/cubox/dodecahedron/video-platform/app'
+let g:netrw_dirhist_4='/Users/baguirre/code/cubox/dodecahedron/video-platform/app/views'
+let g:netrw_dirhist_5='/Users/baguirre/code/cubox/dodecahedron/video-platform/app/views/user'
+let g:netrw_dirhist_6='/Users/baguirre/code/cubox/dodecahedron/video-platform/config'
+let g:netrw_dirhist_7='/Users/baguirre/code/cubox/datajam/datajam/app/views/admin'
+let g:netrw_dirhist_8='/Users/baguirre/code/cubox/dodecahedron/video-platform/app/routes/users'
+let g:netrw_dirhist_9='/Users/baguirre/code/cubox/dodecahedron/video-platform/app/views/admin/transmissions'

@@ -1,0 +1,406 @@
+*bundle-log.txt*                   Bundle Install Log
+
+
+Logs bundle install activity. Also see the list of installed |bundles|.
+
+Thu Sep 15 09:43:22 UYT 2011 by vim-update-bundles 0.8
+ up  |nerdtree|                 4.1.0-45-g12f692f  <- 4.1.0-6-g7650cdc
+ Add |vim-trailing-whitespace|  1.0-2-g6bfea00     git://github.com/bronson/vim-trailing-whitespace.git
+ error: Your local changes to the following files would be overwritten by merge: doc/command-t.txt Please, commit your changes or stash them before you can merge. Updating a08fed9..a353ea1 Aborting 
+
+ Del |command-t|                1.0-7-ga08fed9
+ Add |command-t|                1.2.1-7-ga353ea1   git://git.wincent.com/command-t.git
+ up  |command-t|                1.2.1-7-ga353ea1   <- 1.0-7-ga08fed9
+ up  |zencoding-vim|            95df77c224758      <- 88d89910e29e0
+ up  |supertab|                 1.5-8-g80ec653     <- 2f432d1132e93
+ up  |jQuery|                   0.5.2              <- 0.4
+ Add |vim-git|                  v5.0-7-g291cbe9    git://github.com/tpope/vim-git.git
+ Add |vim-markdown|             ae3a2653f824b      git://github.com/tpope/vim-markdown.git
+ up  |textile.vim|              0.2-11-g5d25629    <- 0.2-2-g8fc6ddb
+ Add |vim-coffee-script|        dc1692561461f      git://github.com/kchmck/vim-coffee-script.git
+ Add |vim-tcomment|             4905ebe8ba553      git://github.com/tsaleh/vim-tcomment.git
+ error: Your local changes to the following files would be overwritten by merge: ftdetect/elixir.vim Please, commit your changes or stash them before you can merge. Updating 4a3cc9e..e97cf71 Aborting 
+
+ Del |vim-elixir|               4a3cc9edb7eca
+ Add |vim-elixir|               e97cf71a9b47d      https://github.com/miaout17/vim-elixir.git
+ up  |vim-elixir|               e97cf71a9b47d      <- 4a3cc9edb7eca
+ Add |vim-ruby|                 vim7.3-77-ge85a87e git://github.com/vim-ruby/vim-ruby.git
+ Add |vim-rails|                v4.4-10-gd94405a   git://github.com/tpope/vim-rails.git
+ Add |vim-rake|                 v1.0-11-g8a93dc7   git://github.com/tpope/vim-rake.git
+ Add |vim-shoulda|              3129eb926fdd2      git://github.com/tsaleh/vim-shoulda.git
+ Add |vim-cucumber|             2ef3e5a4876a4      git://github.com/tpope/vim-cucumber.git
+ Add |vim-haml|                 vim7.2-57-gde3e72a git://github.com/tpope/vim-haml.git
+ Add |vim-ruby-debugger|        v0.1-38-g22522c5   git://github.com/astashov/vim-ruby-debugger.git
+ up  |vimerl|                   0.2-86-g31f99c5    <- 0.2-46-g548de8b
+ Del |coffee-script|            f8f847c8465f6
+ Del |cucumber|                 35b4a3ea17bab
+ Del |git|                      v5.0-5-g10a4fdb
+ Del |haml|                     vim7.2-54-ga0345d5
+ Del |markdown|                 34e28b3f6f6d7
+ Del |rails|                    v4.3-4-g26dade8
+ Del |rake|                     f8f0555a3881c
+ Del |ruby|                     vim7.3-29-g8ee9e43
+ Del |ruby-debugger|            v0.1-21-g0b4c306
+ Del |shoulda|                  3129eb926fdd2
+ Del |tcomment|                 4905ebe8ba553
+ Del |trailing-whitespace|      1.0-2-g6bfea00
+ Del |vim-colors-solarized|     528a59f26d122
+   14 bundles added, 15 bundles removed, and 8 bundles updated
+
+Thu Sep 15 09:46:41 UYT 2011 by vim-update-bundles 0.8
+ Add |nerdtree|                 4.1.0-45-g12f692f  git://github.com/scrooloose/nerdtree.git
+ Add |vim-trailing-whitespace|  1.0-2-g6bfea00     git://github.com/bronson/vim-trailing-whitespace.git
+ Add |command-t|                1.2.1-7-ga353ea1   git://git.wincent.com/command-t.git
+ Add |fakeclip|                 0.2.8              git://github.com/vim-scripts/fakeclip.git
+ Add |zencoding-vim|            95df77c224758      git://github.com/mattn/zencoding-vim.git
+ Add |supertab|                 1.5-8-g80ec653     git://github.com/ervandew/supertab.git
+ Add |jQuery|                   0.5.2              git://github.com/vim-scripts/jQuery.git
+ Add |vim-git|                  v5.0-7-g291cbe9    git://github.com/tpope/vim-git.git
+ Add |vim-markdown|             ae3a2653f824b      git://github.com/tpope/vim-markdown.git
+ Add |textile.vim|              0.2-11-g5d25629    git://github.com/timcharper/textile.vim.git
+ Add |vim-coffee-script|        dc1692561461f      git://github.com/kchmck/vim-coffee-script.git
+ Add |vim-tcomment|             4905ebe8ba553      git://github.com/tsaleh/vim-tcomment.git
+ Add |vim-elixir|               e97cf71a9b47d      https://github.com/miaout17/vim-elixir.git
+ Add |vim-ruby|                 vim7.3-77-ge85a87e git://github.com/vim-ruby/vim-ruby.git
+ Add |vim-rails|                v4.4-10-gd94405a   git://github.com/tpope/vim-rails.git
+ Add |vim-rake|                 v1.0-11-g8a93dc7   git://github.com/tpope/vim-rake.git
+ Add |vim-shoulda|              3129eb926fdd2      git://github.com/tsaleh/vim-shoulda.git
+ Add |vim-cucumber|             2ef3e5a4876a4      git://github.com/tpope/vim-cucumber.git
+ Add |vim-haml|                 vim7.2-57-gde3e72a git://github.com/tpope/vim-haml.git
+ Add |vim-ruby-debugger|        v0.1-38-g22522c5   git://github.com/astashov/vim-ruby-debugger.git
+ Add |vimerl|                   0.2-86-g31f99c5    git://github.com/oscarh/vimerl.git
+ Add |cocoa.vim|                ca6f2544c1f4e      git://github.com/msanders/cocoa.vim.git
+   22 bundles added
+
+Thu Sep 15 09:50:32 UYT 2011 by vim-update-bundles 0.8
+ Add |vim-colors-solarized|     528a59f26d122      git://github.com/altercation/vim-colors-solarized.git
+   1 bundle added
+
+Thu Sep 15 16:48:26 UYT 2011 by vim-update-bundles 0.8
+ Add |go.vim|                   767808fa77255      git://github.com/anzaika/go.vim.git
+ Del |command-t|                1.2.1-7-ga353ea1
+ Del |fakeclip|                 0.2.8
+ Del |jQuery|                   0.5.2
+ Del |textile.vim|              0.2-11-g5d25629
+ Del |vim-cucumber|             2ef3e5a4876a4
+ Del |vim-shoulda|              3129eb926fdd2
+ Del |vim-tcomment|             4905ebe8ba553
+   1 bundle added, 7 bundles removed
+
+Sat Sep 17 08:23:15 UYT 2011 by vim-update-bundles 0.8
+ Add |html5.vim|                0.27-16-gecaa47f   git://github.com/othree/html5.vim.git
+   1 bundle added
+
+Sat Sep 17 13:24:21 UYT 2011 by vim-update-bundles 0.8
+ Add |vim-less|                 73fea97c8e3dd      git://github.com/groenewege/vim-less.git
+   1 bundle added
+
+Thu Jan 19 12:36:48 UYST 2012 by vim-update-bundles 0.8
+ up  |nerdtree|                 4.2.0-49-geced5f9  <- 4.1.0-45-g12f692f
+ up  |zencoding-vim|            62c8a5c39ed1c      <- 95df77c224758
+ Add |tslime.vim|               35f5b96b41f41      git://github.com/jgdavey/tslime.vim.git
+ up  |html5.vim|                0.27-22-g1870ae1   <- 0.27-16-gecaa47f
+ up  |vim-less|                 3c2a265b89d1d      <- 73fea97c8e3dd
+ up  |supertab|                 1.5-13-gac395b5    <- 1.5-8-g80ec653
+ up  |vim-git|                  v5.0-10-gd058250   <- v5.0-7-g291cbe9
+ up  |vim-markdown|             fdc0f091c78cd      <- ae3a2653f824b
+ up  |vim-coffee-script|        v002-2-g2591fef    <- dc1692561461f
+ up  |vim-ruby|                 vim7.3-89-g0d4ae14 <- vim7.3-77-ge85a87e
+ up  |vim-rails|                v4.4-17-ge45164c   <- v4.4-10-gd94405a
+ up  |vim-rake|                 v1.0-13-g8bccbe4   <- v1.0-11-g8a93dc7
+ up  |vim-haml|                 vim7.2-58-ga995d4a <- vim7.2-57-gde3e72a
+ up  |vim-ruby-debugger|        v0.1-46-g9008a57   <- v0.1-38-g22522c5
+   1 bundle added, 13 bundles updated
+
+Thu Jan 19 12:38:39 UYST 2012 by vim-update-bundles 0.8
+ Add |vim-turbux|               7fb0eed59300c      git://github.com/jgdavey/vim-turbux.git
+   1 bundle added
+
+Thu Jan 19 12:44:01 UYST 2012 by vim-update-bundles 0.8
+ Del |vim-ruby-debugger|        v0.1-46-g9008a57
+   1 bundle removed
+
+Mon Jan 30 13:16:52 UYST 2012 by vim-update-bundles 0.8
+ up  |nerdtree|                 4.2.0-54-g2a05782  <- 4.2.0-49-geced5f9
+ Add |vim-fugitive|             v1.2-80-g64716b9   git://github.com/tpope/vim-fugitive.git
+ up  |zencoding-vim|            e6e89137e2c2b      <- 62c8a5c39ed1c
+ up  |vim-turbux|               b0e55f60cbdf4      <- 7fb0eed59300c
+ up  |vim-coffee-script|        v002-3-g2a691d9    <- v002-2-g2591fef
+ up  |vim-rails|                v4.4-18-g1599eec   <- v4.4-17-ge45164c
+   1 bundle added, 5 bundles updated
+
+Thu Apr 12 11:39:46 UYT 2012 by vim-update-bundles 0.8
+ up  |nerdtree|                 4.2.0-63-g2cb0fc7  <- 4.2.0-54-g2a05782
+ up  |vim-fugitive|             v1.2-130-g4fe6e46  <- v1.2-80-g64716b9
+ up  |zencoding-vim|            c492fc64f0451      <- e6e89137e2c2b
+ up  |tslime.vim|               c69b357ea7773      <- 35f5b96b41f41
+ error: Your local changes to the following files would be overwritten by merge: plugin/turbux.vim Please, commit your changes or stash them before you can merge. Updating b0e55f6..6db20e2 Aborting 
+
+ Del |vim-turbux|               b0e55f60cbdf4
+ Add |vim-turbux|               6db20e2d98d2d      git://github.com/jgdavey/vim-turbux.git
+ up  |vim-turbux|               6db20e2d98d2d      <- b0e55f60cbdf4
+ up  |html5.vim|                0.27-29-g9b71f09   <- 0.27-22-g1870ae1
+ up  |vim-less|                 aaf0c284adbda      <- 3c2a265b89d1d
+ up  |supertab|                 1.5-23-g8302775    <- 1.5-13-gac395b5
+ up  |vim-git|                  vim7.3-14-g75d4866 <- v5.0-10-gd058250
+ up  |vim-markdown|             3a99157473cb6      <- fdc0f091c78cd
+ up  |vim-coffee-script|        v002-24-gabac188   <- v002-3-g2a691d9
+ Add |vimux|                    0.2.0              git://github.com/benmills/vimux.git
+ up  |vim-ruby|                 vim7.3-101-g90f3523 <- vim7.3-89-g0d4ae14
+ up  |vim-rails|                v4.4-48-g13b8bb5   <- v4.4-18-g1599eec
+ up  |vim-rake|                 v1.0-17-gaf98f57   <- v1.0-13-g8bccbe4
+ up  |vim-haml|                 vim7.2-60-g3490c63 <- vim7.2-58-ga995d4a
+   2 bundles added, 1 bundle removed, and 15 bundles updated
+
+Tue Jun  5 14:16:08 CEST 2012 by vim-update-bundles 0.8
+ up  |vim-fugitive|             v1.2-140-g1eb4a9f  <- v1.2-130-g4fe6e46
+ up  |zencoding-vim|            f6f4749be9bcf      <- c492fc64f0451
+ up  |vim-turbux|               4ef834b955cff      <- 6db20e2d98d2d
+ up  |html5.vim|                0.27-34-gb8620d9   <- 0.27-29-g9b71f09
+ up  |vim-less|                 d605010cab695      <- aaf0c284adbda
+ up  |supertab|                 2.0                <- 1.5-23-g8302775
+ up  |vim-git|                  v6.0-1-g3d31cb0    <- vim7.3-14-g75d4866
+ up  |vim-coffee-script|        v002-29-gd6dcb9b   <- v002-24-gabac188
+ up  |vimux|                    0.2.0-19-g8a20aec  <- 0.2.0
+ up  |vim-ruby|                 vim7.3-119-ge7e6b4e <- vim7.3-101-g90f3523
+ up  |vim-rails|                v4.4-56-g8412c9b   <- v4.4-48-g13b8bb5
+ up  |vim-haml|                 vim7.2-62-g6284c18 <- vim7.2-60-g3490c63
+   12 bundles updated
+
+Tue Jun 26 11:28:10 UYT 2012 by vim-update-bundles 0.8
+ up  |vim-fugitive|             v1.2-142-g3b27827  <- v1.2-140-g1eb4a9f
+ up  |zencoding-vim|            8194ee6683154      <- f6f4749be9bcf
+ up  |tslime.vim|               a66fc2f72549c      <- c69b357ea7773
+ up  |html5.vim|                0.27-36-g34b407d   <- 0.27-34-gb8620d9
+ up  |supertab|                 2.0-4-gee35ab6     <- 2.0
+ up  |vimux|                    0.3.1              <- 0.2.0-19-g8a20aec
+ up  |vim-ruby|                 vim7.3-120-g34a0862 <- vim7.3-119-ge7e6b4e
+ up  |vim-rails|                v4.4-57-gf22e648   <- v4.4-56-g8412c9b
+   8 bundles updated
+
+Wed Jun 27 15:45:27 UYT 2012 by vim-update-bundles 0.8
+ Del |nerdtree|                 4.2.0-63-g2cb0fc7
+   1 bundle removed
+
+Sat Sep  8 19:36:18 UYT 2012 by vim-update-bundles 0.8
+ up  |vim-fugitive|             v1.2-161-g4138313  <- v1.2-142-g3b27827
+ up  |zencoding-vim|            72e10f85fe445      <- 8194ee6683154
+ up  |vim-turbux|               a5af1a1932807      <- 4ef834b955cff
+ up  |supertab|                 2.0-5-g12f3dc4     <- 2.0-4-gee35ab6
+ up  |vim-git|                  v6.0-3-g75bc162    <- v6.0-1-g3d31cb0
+ up  |vim-markdown|             dcdab0cd55da5      <- 3a99157473cb6
+ up  |vimux|                    0.3.1-13-gc5216bb  <- 0.3.1
+ Add |vim-endwise|              v1.0-12-g74306aa   git://github.com/tpope/vim-endwise.git
+ up  |vim-ruby|                 vim7.3-127-gb10adca <- vim7.3-120-g34a0862
+ up  |vim-rails|                v4.4-68-g9fb06f5   <- v4.4-57-gf22e648
+ up  |vim-rake|                 v1.0-19-gfd4cadb   <- v1.0-17-gaf98f57
+ up  |vim-haml|                 vim7.2-63-g9a891ed <- vim7.2-62-g6284c18
+   1 bundle added, 11 bundles updated
+
+Mon Oct  8 00:03:04 UYST 2012 by vim-update-bundles 0.8
+ up  |vim-fugitive|             v1.2-163-g31dead6  <- v1.2-161-g4138313
+ Add |vim-copy-as-rtf|          v0.0.2             git://github.com/aniero/vim-copy-as-rtf.git
+ up  |tslime.vim|               589f8f3b4ed2f      <- a66fc2f72549c
+ up  |vim-less|                 0223dcdf0f4d3      <- d605010cab695
+ up  |supertab|                 2.0-9-gd34f3c0     <- 2.0-5-g12f3dc4
+ up  |vim-coffee-script|        v002-34-g089506e   <- v002-29-gd6dcb9b
+ up  |vimux|                    0.3.1-14-g908358a  <- 0.3.1-13-gc5216bb
+ up  |vim-endwise|              v1.0-14-g33f9ee0   <- v1.0-12-g74306aa
+ up  |vim-ruby|                 vim7.3-131-gf3e4253 <- vim7.3-127-gb10adca
+ up  |vim-rails|                v4.4-72-g7d79b45   <- v4.4-68-g9fb06f5
+   1 bundle added, 9 bundles updated
+
+Tue Oct 23 11:29:23 UYST 2012 by vim-update-bundles 0.8
+ up  |vim-fugitive|             v1.2-173-g3f703b6  <- v1.2-163-g31dead6
+ up  |zencoding-vim|            68f6e1851affe      <- 72e10f85fe445
+ up  |vim-turbux|               80421764c8566      <- a5af1a1932807
+ bundle for vim-markdown changed from git://github.com/tpope/vim-markdown.git to git://github.com/plasticboy/vim-markdown.git
+
+ Del |vim-markdown|             dcdab0cd55da5
+ Add |vim-markdown|             70ca17d559688      git://github.com/plasticboy/vim-markdown.git
+ up  |html5.vim|                0.27-42-ga302643   <- 0.27-36-g34b407d
+ up  |supertab|                 2.0-13-ge299037    <- 2.0-9-gd34f3c0
+ Aborted: urls map to the same bundle: git://github.com/plasticboy/vim-markdown.git and git://github.com/tpope/vim-markdown.git
+
+Tue Oct 23 11:30:27 UYST 2012 by vim-update-bundles 0.8
+ bundle for vim-markdown changed from git://github.com/plasticboy/vim-markdown.git to git://github.com/tpope/vim-markdown.git
+
+ Del |vim-markdown|             70ca17d559688
+ Add |vim-markdown|             9407dae6609ef      git://github.com/tpope/vim-markdown.git
+ up  |vimux|                    0.3.1-20-g56bcbb0  <- 0.3.1-14-g908358a
+ up  |vim-ruby|                 vim7.3-134-gf27d520 <- vim7.3-131-gf3e4253
+ up  |vim-rails|                v4.4-74-g5490142   <- v4.4-72-g7d79b45
+   1 bundle added, 1 bundle removed, and 3 bundles updated
+
+Thu Dec 20 12:03:17 UYST 2012 by vim-update-bundles 0.8
+ up  |vim-fugitive|             v1.2-179-gd63a475  <- v1.2-173-g3f703b6
+ up  |zencoding-vim|            emmet-2-gf6c5a8c   <- 68f6e1851affe
+ up  |tslime.vim|               571d42685cacd      <- 589f8f3b4ed2f
+ Add |mirah-vim|                5a0f77e645cd7      git://github.com/tanob/mirah-vim.git
+ up  |html5.vim|                0.27-43-g020d440   <- 0.27-42-ga302643
+ up  |supertab|                 2.0-14-gcb52cf1    <- 2.0-13-ge299037
+ up  |vim-git|                  v6.0-4-g4bc24f6    <- v6.0-3-g75bc162
+ up  |vimux|                    0.3.1-23-g8142697  <- 0.3.1-20-g56bcbb0
+ up  |vim-endwise|              v1.0-18-ga45d4a6   <- v1.0-14-g33f9ee0
+ up  |vim-ruby|                 vim7.3-153-g2ee2763 <- vim7.3-134-gf27d520
+ up  |vim-rails|                v4.4-78-g3e54fc9   <- v4.4-74-g5490142
+ up  |vim-haml|                 vim7.2-68-gce0cfed <- vim7.2-63-g9a891ed
+   1 bundle added, 11 bundles updated
+
+Mon Apr 15 18:10:54 UYT 2013 by vim-update-bundles 0.8
+ up  |vim-fugitive|             v1.2-195-gf6d93b8  <- v1.2-179-gd63a475
+ Add |vim-powerline|            09c0cea859a2e      git@github.com:Lokaltog/vim-powerline.git
+ up  |zencoding-vim|            emmet-42-g6d07bd9  <- emmet-2-gf6c5a8c
+ up  |tslime.vim|               686698bd71bfd      <- 571d42685cacd
+ up  |vim-turbux|               f7ee4155fe253      <- 80421764c8566
+ up  |html5.vim|                0.27-51-g7d75d81   <- 0.27-43-g020d440
+ up  |vim-less|                 1b37c0d7cc0f7      <- 0223dcdf0f4d3
+ up  |supertab|                 2.0-20-ga2268b6    <- 2.0-14-gcb52cf1
+ up  |vim-git|                  v6.0-6-g5822ff0    <- v6.0-4-g4bc24f6
+ up  |vim-markdown|             ec0abb3064ce7      <- 9407dae6609ef
+ up  |vimux|                    0.3.1-31-g35c54c0  <- 0.3.1-23-g8142697
+ up  |vim-endwise|              v1.1-1-g9f05e4c    <- v1.0-18-ga45d4a6
+ up  |vim-ruby|                 stable-20130114-36-g5943faa <- vim7.3-153-g2ee2763
+ up  |vim-rails|                v5.0-4-g74f407e    <- v4.4-78-g3e54fc9
+ up  |vim-rake|                 v1.2               <- v1.0-19-gfd4cadb
+   1 bundle added, 14 bundles updated
+
+Mon Apr 15 18:15:07 UYT 2013 by vim-update-bundles 0.8
+ bundle for vim-powerline changed from git@github.com:Lokaltog/vim-powerline.git to git//github.com/Lokaltog/vim-powerline.git
+
+ Del |vim-powerline|            114f8e5c204f1
+ Aborted: 'git clone -q git//github.com/Lokaltog/vim-powerline.git vim-powerline' in /Users/elcuervo/.vim/bundle exited with code 128
+
+Mon Apr 15 18:15:24 UYT 2013 by vim-update-bundles 0.8
+ Add |vim-powerline|            09c0cea859a2e      git://github.com/Lokaltog/vim-powerline.git
+   1 bundle added
+
+Mon Apr 15 18:19:24 UYT 2013 by vim-update-bundles 0.8
+ Add |vim-powerline|            09c0cea859a2e      git://github.com/Lokaltog/vim-powerline.git
+   1 bundle added
+
+Mon Apr 15 18:22:02 UYT 2013 by vim-update-bundles 0.8
+ up  |vim-powerline|            09c0cea859a2e at develop <- 114f8e5c204f1
+   1 bundle updated
+
+Wed Jun 12 00:32:57 ART 2013 by vim-update-bundles 0.8
+ up  |vim-fugitive|             v1.2-205-gf096152  <- v1.2-195-gf6d93b8
+ Add |gist-vim|                 old_api-129-g926e117 git@github.com:mattn/gist-vim.git
+ Aborted: 'git fetch -q origin' in /Users/elcuervo/.vim/bundle/vim-copy-as-rtf exited with code 128
+
+Wed Jun 12 00:35:14 ART 2013 by vim-update-bundles 0.8
+ Add |webapi-vim|               0.1-31-gcbeda14    git@github.com:mattn/webapi-vim.git
+ Aborted: 'git fetch -q origin' in /Users/elcuervo/.vim/bundle/vim-copy-as-rtf exited with code 128
+
+Mon Jun 17 11:25:55 ART 2013 by vim-update-bundles 0.8
+ Add |vim-tmux-navigator|       f61145418f8b1      git@github.com:christoomey/vim-tmux-navigator.git
+ Aborted: 'git fetch -q origin' in /Users/elcuervo/.vim/bundle/vim-copy-as-rtf exited with code 128
+
+Mon Jun 17 11:26:57 ART 2013 by vim-update-bundles 0.8
+ up  |zencoding-vim|            emmet-79-g0b37e09  <- emmet-42-g6d07bd9
+ up  |tslime.vim|               7bf515f6419f2      <- 686698bd71bfd
+ up  |vim-turbux|               a2df0fd4e6fc1      <- f7ee4155fe253
+ up  |html5.vim|                0.27-55-g9518ec3   <- 0.27-51-g7d75d81
+ up  |vim-less|                 8443f89070ced      <- 1b37c0d7cc0f7
+ up  |supertab|                 2.0-27-g94b62de    <- 2.0-20-ga2268b6
+ up  |vim-markdown|             451eefb9b2e30      <- ec0abb3064ce7
+ up  |vimux|                    1.0.0              <- 0.3.1-31-g35c54c0
+ up  |vim-ruby|                 vim7.4-3-gb60da6c  <- stable-20130114-36-g5943faa
+ up  |vim-rails|                v5.0-10-gadd3463   <- v5.0-4-g74f407e
+ up  |vim-rake|                 v1.2-3-g6b76305    <- v1.2
+ up  |vim-haml|                 vim7.2-71-g3327947 <- vim7.2-68-gce0cfed
+ Del |mirah-vim|                5a0f77e645cd7
+ Del |vim-copy-as-rtf|          v0.0.2
+ Del |vim-elixir|               e97cf71a9b47d
+ Del |vimerl|                   0.2-86-g31f99c5
+   4 bundles removed, 12 bundles updated
+
+Mon Jun 24 12:49:47 ART 2013 by vim-update-bundles 0.8
+ up  |vim-fugitive|             v1.2-206-g00b0916  <- v1.2-205-gf096152
+ Interrupted
+
+Mon Jun 24 12:52:05 ART 2013 by vim-update-bundles 0.8
+ Add |vim-github-comment|       caa44c029b2f2      git@github.com:mmozuras/vim-github-comment.git
+ up  |vim-tmux-navigator|       f0a3f6dc5d929      <- f61145418f8b1
+ Add |copy-as-rtf|              0.0.3              git@github.com:vim-scripts/copy-as-rtf.git
+ Aborted: 'git fetch -q origin' in /Users/elcuervo/.vim/bundle/copy-as-rtf exited with code 128
+
+Mon Jun 24 12:53:26 ART 2013 by vim-update-bundles 0.8
+ up  |supertab|                 2.0-28-g6f9b1f1    <- 2.0-27-g94b62de
+ up  |vim-markdown|             fccf76f68fa81      <- 451eefb9b2e30
+ up  |vim-rails|                v5.0-13-gbdc3238   <- v5.0-10-gadd3463
+ Del |copy-as-rtf|              0.0.3
+ Del |tslime.vim|               7bf515f6419f2
+ Del |vim-haml|                 vim7.2-71-g3327947
+ Del |vim-less|                 8443f89070ced
+ Del |vim-turbux|               a2df0fd4e6fc1
+ Del |vimux|                    1.0.0
+   6 bundles removed, 3 bundles updated
+
+Tue Jun 25 22:09:38 ART 2013 by vim-update-bundles 0.8
+ Add |vim-golang|               e4f4d6ded00b4      git@github.com:jnwhiteh/vim-golang.git
+ Del |go.vim|                   767808fa77255
+   1 bundle added, 1 bundle removed
+
+Mon Jul  1 11:11:12 ART 2013 by vim-update-bundles 0.8
+ Add |vim-airline|              05ee8c0fc7a02      git@github.com:bling/vim-airline.git
+ up  |zencoding-vim|            emmet-80-g5d54856  <- emmet-79-g0b37e09
+   1 bundle added, 1 bundle updated
+
+Mon Jul  1 11:28:34 ART 2013 by vim-update-bundles 0.8
+ Del |vim-airline|              05ee8c0fc7a02
+   1 bundle removed
+
+Mon Jul 15 21:28:31 ART 2013 by vim-update-bundles 0.8
+ Add |CoVim|                    c19b0edd929f6      git://github.com/FredKSchott/CoVim.git
+ up  |webapi-vim|               0.1-32-gf1f8177    <- 0.1-31-gcbeda14
+ up  |html5.vim|                0.27-57-g22c9973   <- 0.27-55-g9518ec3
+   1 bundle added, 2 bundles updated
+
+Mon Jul 15 21:38:44 ART 2013 by vim-update-bundles 0.8
+   no updates
+
+Mon Jul 15 22:39:30 ART 2013 by vim-update-bundles 0.8
+ Del |CoVim|                    c19b0edd929f6
+   1 bundle removed
+
+Tue Sep 24 19:41:43 UYT 2013 by vim-update-bundles 0.8
+ up  |vim-fugitive|             v1.2-207-g124550c  <- v1.2-206-g00b0916
+ up  |webapi-vim|               0.1-46-ga043444    <- 0.1-32-gf1f8177
+ up  |gist-vim|                 7.1-36-g1aed2e0    <- old_api-129-g926e117
+ up  |vim-tmux-navigator|       1c32f8dae720a      <- f0a3f6dc5d929
+ fatal: Not possible to fast-forward, aborting. 
+
+ Del |zencoding-vim|            emmet-80-g5d54856
+ Add |zencoding-vim|            83a283b17c1d6      git://github.com/mattn/zencoding-vim.git
+ up  |zencoding-vim|            83a283b17c1d6      <- emmet-80-g5d54856
+ Add |emmet-vim|                emmet-127-g9c17334 git://github.com/mattn/emmet-vim.git
+ up  |supertab|                 2.0-29-g7a32e08    <- 2.0-28-g6f9b1f1
+ up  |vim-git|                  v6.0-8-g104636f    <- v6.0-6-g5822ff0
+ up  |vim-coffee-script|        v002-96-g42c0cf9   <- v002-34-g089506e
+ up  |vim-endwise|              v1.1-6-g71a75f7    <- v1.1-1-g9f05e4c
+ up  |vim-ruby|                 vim7.4-11-geafac86 <- vim7.4-3-gb60da6c
+ Del |html5.vim|                0.27-57-g22c9973
+   2 bundles added, 2 bundles removed, and 10 bundles updated
+
+Tue Sep 24 19:42:50 UYT 2013 by vim-update-bundles 0.8
+ Add |html5.vim|                0.27-60-g7987636   git://github.com/othree/html5.vim.git
+ Del |zencoding-vim|            83a283b17c1d6
+   1 bundle added, 1 bundle removed
+
+Tue Sep 24 19:48:31 UYT 2013 by vim-update-bundles 0.8
+   no updates
+
+Wed Nov 13 12:17:15 UYST 2013 by vim-update-bundles 0.8
+ up  |vim-fugitive|             v1.2-212-g34e2d25  <- v1.2-207-g124550c
+ up  |vim-trailing-whitespace|  1.0-4-g4234770     <- 1.0-2-g6bfea00
+ up  |gist-vim|                 7.1-39-gbd941d0    <- 7.1-36-g1aed2e0
+ up  |vim-tmux-navigator|       6daddabf5496e      <- 1c32f8dae720a
+ up  |emmet-vim|                emmet-153-g55c0875 <- emmet-127-g9c17334
+ Add |vim-puppet|               4e784293f6e36      git://github.com/rodjek/vim-puppet.git
+ up  |html5.vim|                0.27-66-gd4161cd   <- 0.27-60-g7987636
+ up  |vim-coffee-script|        v002-101-geb81ecc  <- v002-96-g42c0cf9
+ up  |vim-ruby|                 vim7.4-27-g2597860 <- vim7.4-11-geafac86
+ up  |vim-golang|               29ec2becc828b      <- e4f4d6ded00b4
+   1 bundle added, 9 bundles updated
+

@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/baguirre/code/clocktower/ruby/projects/tilezilla'
+let g:netrw_dirhist_2='/Users/baguirre/code/cubox/efficiency20/peer/public/stylesheets/compiled'
+let g:netrw_dirhist_3='/Users/baguirre/code/cubox/efficiency20/peer'
+let g:netrw_dirhist_4='/Users/baguirre/code/cubox/efficiency20/calculator'
+let g:netrw_dirhist_5='/Users/baguirre/code/teigha/TD/Exports/SvgExport/Source'
+let g:netrw_dirhist_6='/Users/baguirre/code/cubox/plansharing/plansharing'

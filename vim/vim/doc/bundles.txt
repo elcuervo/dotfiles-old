@@ -1,0 +1,29 @@
+*bundles* *bundles.txt*            Installed Bundles
+
+
+Lists the currently installed bundles. Also see the |bundle-log|.
+Last updated by vim-update-bundles on Wed Nov 13 12:17:15 UYST 2013.
+
+  PLUGIN                           VERSION                RELEASE DATE
+------------------------------------------------------------------------
+  |vim-fugitive|                   v1.2-212-g34e2d25      2013-10-24
+  |vim-trailing-whitespace|        1.0-4-g4234770         2013-10-18
+  |webapi-vim|                     0.1-46-ga043444        2013-09-23
+  |gist-vim|                       7.1-39-gbd941d0        2013-10-17
+  |vim-github-comment|             caa44c029b2f2          2013-06-24
+  |vim-tmux-navigator|             6daddabf5496e          2013-09-27
+  |vim-colors-solarized|           528a59f26d122          2011-05-09
+  |emmet-vim|                      emmet-153-g55c0875     2013-11-06
+  |vim-puppet|                     4e784293f6e36          2013-07-25
+  |html5.vim|                      0.27-66-gd4161cd       2013-10-20
+  |supertab|                       2.0-29-g7a32e08        2013-07-29
+  |vim-git|                        v6.0-8-g104636f        2013-09-18
+  |vim-markdown|                   fccf76f68fa81          2013-06-24
+  |vim-coffee-script|              v002-101-geb81ecc      2013-10-29
+  |vim-endwise|                    v1.1-6-g71a75f7        2013-09-03
+  |vim-ruby|                       vim7.4-27-g2597860     2013-11-03
+  |vim-rails|                      v5.0-13-gbdc3238       2013-05-02
+  |vim-rake|                       v1.2-3-g6b76305        2013-06-05
+  |vim-golang|                     29ec2becc828b          2013-11-12
+  |cocoa.vim|                      ca6f2544c1f4e          2010-04-07
+

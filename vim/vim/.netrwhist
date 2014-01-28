@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/elcuervo/code/neo/icann/new_icann/app/views/public_comments'
+let g:netrw_dirhist_2='/Users/elcuervo/code/clocktower/ruby/airplay/lib'
+let g:netrw_dirhist_3='/Users/elcuervo/code/clocktower/ruby/airplay/lib/airplay'
+let g:netrw_dirhist_4='/Users/elcuervo/code/clocktower/ruby/net-ptth/lib/net/ptth'
+let g:netrw_dirhist_5='/Users/elcuervo/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/net-ptth-0.0.15'
+let g:netrw_dirhist_6='/Users/elcuervo/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/calderin-0.0.7'
