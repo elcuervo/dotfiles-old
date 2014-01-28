@@ -1,0 +1,34 @@
+# Path to your oh-my-zsh configuration.
+export SHELL=/usr/local/bin/zsh
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+bindkey -v
+
+source $HOME/bin/ssh-find-agent.bash
+
+# Autoload .env files
+load_env_file() {
+  if [ -f ".env" ]; then export $(grep -v '#' .env); fi;
+}
+
+# Load for .env files when changing dir
+chpwd() { load_env_file }
+
+alias be="bundle exec"
+
+load_env_file
+
+export GOPATH=$HOME/code/elcuervo/go
+export GOSOURCE=$GOPATH/src/code.google.com/p/go
+export NODE_PATH=/usr/local/lib/node_modules
+export NPM_PATH=/usr/local/share/npm/bin
+export BIN_PATH=$HOME/bin:$GOPATH/bin
+export BREW_PATH=/usr/local/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=$PATH:$BIN_PATH:$NODE_PATH:$NPM_PATH:$BREW_PATH:$GOSOURCE/bin
+
+set_ssh_agent_socket
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

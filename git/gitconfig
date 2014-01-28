@@ -1,0 +1,20 @@
+[core]
+  excludesfile = /Users/elcuervo/.gitignore_global
+
+[hub]
+  protocol = https
+
+[user]
+  name = elCuervo
+  email = yo@brunoaguirre.com
+
+[color]
+  ui = true
+
+[help]
+  autocorrect = 1
+
+[alias]
+  co = checkout
+  s = status
+  cherry-rm = "!sh -c 'git rebase -p --onto $1^ $1' - "

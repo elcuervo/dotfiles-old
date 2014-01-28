@@ -1,0 +1,118 @@
+syntax on
+filetype plugin indent on
+
+call pathogen#infect()
+call pathogen#helptags()
+
+" Per folder config
+set exrc
+set secure
+
+set statusline=%<%f\ 
+set statusline+=\(%{fugitive#head()}\)
+set statusline+=%=
+set statusline+=\ %l/%L\ [%p%%]
+set statusline+=\ Col:%v
+set statusline+=\ Buf:#%n
+set encoding=utf-8
+set fileencoding=utf-8
+set clipboard=unnamed
+
+" Reselect the visual block after de/indenting
+vnoremap < <gv
+vnoremap > >gv
+
+" Highlight the current buffer so we don't get lost
+hi StatusLine   guifg=white guibg=darkred  gui=none ctermfg=white ctermbg=darkred term=none cterm=none
+hi StatusLineNC guifg=black guibg=darkgray gui=none ctermfg=black ctermbg=gray term=none cterm=none
+hi VertSplit    guifg=black guibg=darkgray gui=none ctermfg=black ctermbg=gray term=none cterm=none
+
+set winminheight=0
+set laststatus=2
+set t_Co=256 " Use 256 color in the term
+set background=dark
+set scrolloff=4 sidescrolloff=20
+
+let g:solarized_termcolors=256
+let g:gist_clip_command='pbcopy'
+let g:gist_post_private=1
+let g:github_user='elcuervo'
+let g:github_comment_open_browser = 1
+
+colorscheme solarized
+
+" Mouse support inside GNU screen
+set ttymouse=xterm2
+set mouse=a
+set mousefocus
+
+set textwidth=80    " Lines with 80 chars at most
+set colorcolumn=80  " please
+set nocompatible
+set nobackup
+set noswapfile                    " It's 2012, Vim."
+set ttyfast " Send more characters for redraws
+
+" basic config
+set number
+set ruler
+" allow to hide unsaved buffers
+set hidden
+
+set incsearch         " find the next match as we type the search
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set autoindent
+
+" Faster than esc
+imap jk <Esc>
+
+" switch between splits through f7 and f8
+map <f8> <c-w>j<c-w>_
+imap <f8> <esc><f8>
+map <f7> <c-w>k<c-w>_
+imap <f7> <esc><f7>
+
+map ,d orequire 'ruby-debug';debugger;1<ESC>
+
+" vim-update-bundles (<- gem install)
+" Generally Useful:
+"
+" Bundle: git://github.com/tpope/vim-fugitive.git
+" Bundle: git://github.com/bronson/vim-trailing-whitespace.git
+" Bundle: git@github.com:mattn/webapi-vim.git
+" Bundle: git@github.com:mattn/gist-vim.git
+" Bundle: git@github.com:mmozuras/vim-github-comment.git
+" Bundle: git@github.com:christoomey/vim-tmux-navigator.git
+" #   If rvm is installed, make sure we compile command-t with the system ruby
+" #   BUNDLE-COMMAND: if which rvm >/dev/null 2>&1; then rvm system exec rake make; else rake make; fi
+"
+" ColorSchemes:
+" Bundle: git://github.com/altercation/vim-colors-solarized.git
+
+" Utilities:
+" Bundle: git://github.com/mattn/emmet-vim.git
+" Bundle: git://github.com/rodjek/vim-puppet.git
+
+" Programming:
+"
+" HTML5
+" Bundle: git://github.com/othree/html5.vim.git
+"
+" Bundle: git://github.com/ervandew/supertab.git
+" Bundle: git://github.com/tpope/vim-git.git
+" Bundle: git://github.com/tpope/vim-markdown.git
+" Bundle: git://github.com/kchmck/vim-coffee-script.git
+
+" Ruby/Rails Programming:
+" Bundle: git://github.com/tpope/vim-endwise.git
+" Bundle: git://github.com/vim-ruby/vim-ruby.git
+" Bundle: git://github.com/tpope/vim-rails.git
+" Bundle: git://github.com/tpope/vim-rake.git
+
+" Go
+" Bundle: git@github.com:jnwhiteh/vim-golang.git
+
+" Cocoa Objective-C programming
+" Bundle: git://github.com/msanders/cocoa.vim.git

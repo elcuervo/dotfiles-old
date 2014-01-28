@@ -1,0 +1,6 @@
+.env
+*.rdb
+node_modules
+.DS_Store
+pkg
+Procfile.dev
