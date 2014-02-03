@@ -18,3 +18,5 @@
   co = checkout
   s = status
   cherry-rm = "!sh -c 'git rebase -p --onto $1^ $1' - "
+[push]
+	default = simple
